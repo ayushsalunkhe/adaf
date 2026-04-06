@@ -1,0 +1,18 @@
+{
+  "name": "instagram-reel-tracker",
+  "version": "1.0.0",
+  "description": "Daily Instagram Reel view tracker using Apify + Google Sheets",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "run-once": "node src/index.js --once",
+    "schedule": "node src/scheduler.js"
+  },
+  "dependencies": {
+    "apify-client": "^2.12.5",
+    "dotenv": "^16.4.5",
+    "googleapis": "^140.0.1",
+    "node-cron": "^3.0.3"
+  }
+}
